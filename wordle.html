@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wordle</title>
+        <link rel="stylesheet" href = "./wordle.css" >
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="./wordle.js " defer></script>
+    </head>
+    <body>
+        <div id="contenido">
+            <h1>Wordle</h1>
+            <input placeholder="¡INTENTALO!" id = "input" type = "text" pattern="A-Za-z" minlength="5" maxlength="5">
+            <p id="error">*Es una palabra de 5 letras*</p>
+            <button id = "intentar">Intentar</button> 
+            <button id = "reiniciar">Reiniciar</button>
+            <p id="texto"></p>
+            <div id = "grid">
+                <div class = "row"></div>
+                <div class = "row"></div>
+            </div>
+        </div>
+    </body>
+</html>
